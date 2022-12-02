@@ -1,0 +1,19 @@
+.task {
+    background: #adabab39;
+    border-radius: 6px;
+    margin: 20px 0;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+
+.del {
+    color: red;
+    cursor: pointer;
+}
+
+.reminder {
+    background: #11d6567b;
+}

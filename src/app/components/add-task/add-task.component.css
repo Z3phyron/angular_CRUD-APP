@@ -1,0 +1,34 @@
+form {
+    display: grid;
+    grid-gap: 10px;
+
+}
+
+.form_control {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+input {
+    width: 100%;
+    outline: none;
+    border: 1px solid #33333343;
+    border-radius: 4px;
+    padding: 10px 20px;
+}
+
+.submit {
+      outline: none;
+    border: none;
+    border-radius: 8px;
+    background: rgb(17, 140, 255);
+    color: #fff;
+    transition: .5s;
+    width: 100px;
+}
+
+.submit:hover {
+background: rgb(4, 122, 232);
+}
